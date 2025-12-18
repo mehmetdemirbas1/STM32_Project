@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # --- Senin Mevcut Listen (Genel Derleme Dosyaları) ---
+=======
+>>>>>>> a8ee35c8e2f2f794e7c00e68dd3bd45542658235
 # Prerequisites
 *.d
 
@@ -36,8 +39,11 @@
 *.i*86
 *.x86_64
 *.hex
+<<<<<<< HEAD
 # EKLENDİ: STM32 için binary dosya formatı çok önemlidir
 *.bin
+=======
+>>>>>>> a8ee35c8e2f2f794e7c00e68dd3bd45542658235
 
 # Debug files
 *.dSYM/
@@ -56,6 +62,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+<<<<<<< HEAD
 
 # --- STM32CubeIDE ve Eclipse İçin Eklenenler ---
 
@@ -85,3 +92,5 @@ JLinkLog.txt
 # 5. List Dosyaları (Assembly çıktıları)
 *.list
 *.lpp
+=======
+>>>>>>> a8ee35c8e2f2f794e7c00e68dd3bd45542658235
