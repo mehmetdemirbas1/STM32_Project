@@ -1,0 +1,87 @@
+# --- Senin Mevcut Listen (Genel Derleme Dosyaları) ---
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+# EKLENDİ: STM32 için binary dosya formatı çok önemlidir
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+
+# --- STM32CubeIDE ve Eclipse İçin Eklenenler ---
+
+# 1. Derleme Klasörleri (EN ÖNEMLİSİ)
+# CubeIDE bu klasörlerin içine makefile ve subdir.mk dosyaları üretir.
+# Tek tek uzantı engellemek yerine klasörü komple yoksaymak daha temizdir.
+Debug/
+Release/
+build/
+
+# 2. STM32CubeIDE Metadata Dosyaları
+# .mxproject: CubeMX durum dosyası (bazen saklanır ama genelde gereksizdir, .ioc yeterlidir)
+.mxproject
+
+# 3. Eclipse IDE Ayarları
+# Kişisel çalışma alanı ayarlarını repoya atmamak için:
+.settings/
+.metadata/
+.runtime/
+
+# 4. Debugger ve Trace Dosyaları
+# J-Link veya ST-Link kullanırken oluşan loglar
+JLinkLog.txt
+*.jlink
+*.launch
+
+# 5. List Dosyaları (Assembly çıktıları)
+*.list
+*.lpp
